@@ -1,0 +1,120 @@
+.App {
+  display:flex;
+  justify-content:center;
+  font-family:'Segoe UI', Roboto, Geneva, Verdana, sans-serif;
+  font-size:14px;
+  padding:40px;
+}
+.login-interface{
+  display:flex;
+  justify-content:center;
+  align-items:stretch;
+  max-width:935px;
+  width:100%;
+  box-sizing:border-box;
+}
+.column:nth-child(1){
+  flex-grow:1;
+  max-width:585px;
+}
+.column:nth-child(2){
+  flex-grow:1;
+  max-width:350px;
+}
+.container{
+  width:100%;
+  border:1px solid rgba(219,219,219,1);
+  border-radius:1px;
+  padding:10px 0 10px 0;
+  margin-bottom:10px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction:column;
+}
+.login-form{
+  max-width:350px;
+}
+.login-form form{
+  display:flex;
+  box-sizing:border-box;
+  flex-direction:column;
+  align-items:center;
+  max-width:268px;
+  width:100%;
+}
+input[type="text"], input[type="password"]{
+  box-sizing:border-box;
+  background-color:rgba(250,250,250,1);
+  border:1px solid rgba(219,219,219,1);
+  padding:9px 0 7px 8px;
+  line-height:18px;
+  text-overflow: ellipsis;
+  color:rgba(38,38,38,1);
+  width:100%;
+  outline:0;
+  margin-bottom:6px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.separador{
+  display:flex;
+  position:relative;
+  max-width:268px;
+  width:100%;
+  margin-top:10px;
+  margin-bottom:18px;
+}
+.separador div:nth-child(1), .separador div:nth-child(3){
+  background-color: rgba(219,219,219,1);
+  flex-grow:1;
+  flex-shrink:1;
+  height:1px;
+  top:0.45em;
+  position:relative;
+}
+.separador div:nth-child(2){
+  color:rgba(142,142,142,1);
+  flex-grow:0;
+  font-size:13px;
+  font-weight:600;
+  line-height:15px;
+  text-transform: uppercase;
+  margin:0 18px;
+}
+.login-facebook{
+  display:flex;
+  align-items:center;
+  background-color:#FFFFFF;
+  border:0;
+  cursor:pointer;
+  line-height:18px;
+  margin-top:8px;
+  margin-bottom:8px;
+}
+.login-facebook span:nth-child(1){
+  background-image: url("../../assets/images/icons.png");
+  background-repeat:no-repeat;
+  background-position:-414px -259px;
+  display:inline-block;
+  height:16px;
+  width:16px;
+  margin-right:8px;
+}
+.login-facebook span:nth-child(2){
+  color:#385185;
+  font-weight: 600;
+}
+a{
+  text-decoration:none;
+  color:rgba(0,55,107,1);
+  line-height:16px;
+  margin-top:12px;
+  text-align:center;
+  font-size:12px;
+}
+.signin a{
+  color:rgba(0,149,246,1);
+  font-weight:600;
+  font-size:14px;
+  line-height:18px;
+}
