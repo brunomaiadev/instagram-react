@@ -1,0 +1,11 @@
+.backgroundinstagram{
+    position:relative;
+}
+.backgroundinstagram img:nth-child(1){
+    position:relative;
+}
+.backgroundinstagram img:nth-child(2){
+    position:absolute;
+    left:156px;
+    top:26px;
+}

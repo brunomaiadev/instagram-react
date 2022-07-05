@@ -1,0 +1,25 @@
+.separador{
+    display:flex;
+    position:relative;
+    max-width:268px;
+    width:100%;
+    margin-top:10px;
+    margin-bottom:18px;
+  }
+  .separador div:nth-child(1), .separador div:nth-child(3){
+    background-color: rgba(219,219,219,1);
+    flex-grow:1;
+    flex-shrink:1;
+    height:1px;
+    top:0.45em;
+    position:relative;
+  }
+  .separador div:nth-child(2){
+    color:rgba(142,142,142,1);
+    flex-grow:0;
+    font-size:13px;
+    font-weight:600;
+    line-height:15px;
+    text-transform: uppercase;
+    margin:0 18px;
+  }

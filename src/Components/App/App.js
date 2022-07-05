@@ -1,9 +1,10 @@
-import backgroundInstagram from "../../assets/images/background-instagram.png"
-import perfilInstagram from "../../assets/images/perfil-instagram.png"
 import logoInstagram from "../../assets/images/logo.png"
 
 import ButtonLogin from "../ButtonLogin/ButtonLogin"
 import Container from "../Container/Container"
+import AppDownload from "../AppDownload/AppDownload"
+import BackgroundInstagram from "../BackgroundInstagram/BackgroundInstagram"
+import Separador from "../Separador/Separador"
 
 import './App.css';
 
@@ -12,8 +13,7 @@ function App() {
     <section className="App">
       <main className="login-interface">
         <div className="column">
-          <img src={backgroundInstagram}/>
-          <img src={perfilInstagram}/>
+          <BackgroundInstagram />
         </div>
         <div className="column">
           <Container className="login-form">
@@ -23,11 +23,7 @@ function App() {
                 <input placeholder="Senha" type="password"/>
                 <ButtonLogin text="Entrar" />
               </form>
-              <div className="separador">
-                <div></div>
-                <div>OU</div>
-                <div></div>
-              </div>
+              <Separador text="OU"/>
               <div>
                 <button class="login-facebook">
                   <span></span>
@@ -41,6 +37,7 @@ function App() {
               <p>Não tem uma conta? <a href="index.js">Cadastre-se</a></p>
             </div>
           </Container>
+          <AppDownload/>
         </div>
       </main>
     </section>

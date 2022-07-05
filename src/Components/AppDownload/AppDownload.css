@@ -1,0 +1,12 @@
+.appdownload{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+.appdownload div{
+    margin:10px 0px 10px 0px;
+}
+.appdownload .logo-img-app{
+    height:40px;
+    margin-right:8px;
+}
