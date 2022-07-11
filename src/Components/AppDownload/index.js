@@ -1,6 +1,6 @@
 import appStoreLogo from "../../assets/images/appstore.png"
 import playStoreLogo from "../../assets/images/playstore.png"
-import "./AppDownload.css"
+import "./appdownload.css"
 function AppDownload(){
     return (
         <div className="appdownload">

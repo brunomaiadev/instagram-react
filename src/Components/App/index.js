@@ -1,19 +1,19 @@
 import logoInstagram from "../../assets/images/logo.png"
 
-import ButtonLogin from "../ButtonLogin/ButtonLogin"
-import Container from "../Container/Container"
-import AppDownload from "../AppDownload/AppDownload"
-import BackgroundInstagram from "../BackgroundInstagram/BackgroundInstagram"
-import Separador from "../Separador/Separador"
+import ButtonLogin from "../ButtonLogin"
+import Container from "../Container"
+import AppDownload from "../AppDownload"
+import PreviewInstagram from "../PreviewInstagram"
+import Separador from "../Separador"
 
-import './App.css';
+import "./app.css";
 
 function App() {
   return (
     <section className="App">
       <main className="login-interface">
         <div className="column">
-          <BackgroundInstagram />
+          <PreviewInstagram />
         </div>
         <div className="column">
           <Container className="login-form">
@@ -61,9 +61,9 @@ function App() {
           <a href="index.js">Música</a>
           <a href="index.js">Artes visuais</a>
         </div>
-        <div>
-          <span>Português (Brasil)</span>
-          <span>© 2022 Instagram from Meta</span>
+        <div className="list">
+          <a href="index.js">Português (Brasil)</a>
+          <a href="index.js">© 2022 Instagram from Meta</a>
         </div>
       </footer>
     </section>

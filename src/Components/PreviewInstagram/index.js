@@ -1,7 +1,7 @@
 import backgroundInstagram from "../../assets/images/background-instagram.png"
 import perfilInstagram from "../../assets/images/perfil-instagram.png"
-import "./BackgroundInstagram.css"
-function BackgroundInstagram(){
+import "./previewinstagram.css"
+function PreviewInstagram(){
     return (
         <div className="backgroundinstagram">
           <img src={backgroundInstagram}/>
@@ -9,4 +9,4 @@ function BackgroundInstagram(){
         </div>
     )
 }
-export default BackgroundInstagram
+export default PreviewInstagram

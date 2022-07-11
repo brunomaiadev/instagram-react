@@ -1,4 +1,4 @@
-import "./Separador.css"
+import "./separador.css"
 function Separador(props){
     return (
         <div className="separador">

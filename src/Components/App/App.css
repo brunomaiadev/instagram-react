@@ -1,10 +1,11 @@
 .App {
   display:flex;
   justify-content:center;
+  align-items:center;
   flex-direction:column;
   font-family:'Segoe UI', Roboto, Geneva, Verdana, sans-serif;
   font-size:14px;
-  padding:40px;
+  padding:80px;
 }
 .login-interface{
   display:flex;
